@@ -1,0 +1,104 @@
+
+header {
+    padding: 15px 30px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+.logo img {
+    width: 155px;
+    height: 40px;
+}
+.nav-list-container {
+    display: flex;
+    gap: 40px;
+}
+nav li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav ul .active {
+    color: #0065fe;
+}
+nav ul li a {
+    text-decoration: none;
+    font-family: 'Gilroy-Medium';
+    font-size: 18px;
+    line-height: 21px;
+}
+nav ul li a::after {
+    display:block;
+    width: 0%;
+    height: 2px;
+    content: "";
+    background-color: #005AE2;
+}
+.drop-down {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+}
+.drop-down img {
+    width: 26px;
+}
+.drop-price{
+    color: #000;
+}
+.drop-Analytic {
+    color: #000;
+}
+.button-container {
+background-color: transparent;
+font-family: 'Gilroy-Medium';
+}
+
+.login-button {
+    text-decoration: none;
+    margin-right: 60px;
+    font-size: larger;   
+}
+.try-free-button {
+    background-color: #005AE2;
+    color: #fff;
+    height: 40px;
+    width: 120px;
+    border: none;
+    border-radius: 20px;
+}
+.hero-text-one {
+    position: relative;
+    font-family: 'Gilroy-Mdeium';
+    font-size: 48px;
+    text-align: center;
+    padding-top: 100px;
+}
+
+/*Span*/
+.blue-words {
+    color: #005AE2;
+}
+.hero-one-img {
+    position: absolute;
+    margin-top: 0px;
+    padding-right: 8px;
+}
+.hero-text-two {
+    text-align: center;
+    padding-top: 50px;
+    font-size: 20px;
+}
+.hero-btn {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+#btn-hover {
+    position: absolute;
+}
